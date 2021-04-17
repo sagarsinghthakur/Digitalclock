@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="digitalclock.css">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@800&display=swap" rel="stylesheet">
+    <title>Digitalclock</title>
+</head>
+<body>
+    
+    <div class="darkmode">
+        <button class="btn" id="btn" onclick="changemode();">dark mode</button></div>
+
+    <div class="container">
+        <div class="box">
+         <div class="hour" id="hour">0</div>
+         <div>Hours</div>
+        </div> 
+        <div class="box">
+            <div class="minute" id="minute">0</div>
+            <div>Minute</div>
+           </div> 
+           <div class="box">
+            <div class="second" id="second">0</div>
+            <div>Second</div>
+           </div> 
+           <div class="box">
+            <div class="ampm" id="ampm">0</div>
+            <div>Am/Pm</div>
+           </div>            
+    </div>
+    <script src="digitalclock.js"></script>
+</body>
+</html>
